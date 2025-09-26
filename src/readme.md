@@ -72,6 +72,9 @@ git log –oneline --> muestra un log mas ordenado
 
 git config --global alias.gl "log --graph --decorate --pretty=format:'%C(yellow)%h%Creset %Cgreen(%ad)%Creset %C(cyan)<%an>%Creset %s' --date=format-local:'%Y-%m-%d %H:%M'" 
 
+ gl = log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %Cgreen(%ad)%Creset %C(cyan)<%an>%Creset 
+%s' --date=format-local:'%Y-%m-%d %H:%M'
+
  
 
 Actualizar commit y revisar cambios  
